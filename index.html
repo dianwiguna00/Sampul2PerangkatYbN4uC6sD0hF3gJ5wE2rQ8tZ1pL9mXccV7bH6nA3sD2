@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<title>Menu Utama</title>
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    height:100vh;
+    background:linear-gradient(
+        135deg,
+        #2563eb,
+        #7c3aed
+    );
+    display:flex;
+    flex-direction:column;
+}
+
+.header{
+    color:white;
+    text-align:center;
+    padding:20px 10px;
+}
+
+.header h1{
+    font-size:30px;
+}
+
+.header p{
+    margin-top:8px;
+    font-size:16px;
+}
+
+.menu{
+    flex:1;
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    gap:12px;
+    padding:12px;
+}
+
+.menu a{
+    text-decoration:none;
+}
+
+.card{
+    width:100%;
+    height:100%;
+    border:none;
+    border-radius:25px;
+    color:white;
+    font-size:22px;
+    font-weight:bold;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    box-shadow:0 8px 18px rgba(0,0,0,.25);
+    transition:.2s;
+}
+
+.card:active{
+    transform:scale(.98);
+}
+
+.absensi{
+    background:#16a34a;
+}
+
+.terlambat{
+    background:#f97316;
+}
+
+.nilai{
+    background:#9333ea;
+}
+
+.observasi{
+    background:#dc2626;
+}
+
+.icon{
+    font-size:48px;
+    margin-bottom:10px;
+}
+
+.footer{
+    color:white;
+    text-align:center;
+    padding:10px;
+    font-size:13px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="header">
+    <h1>SISTEM ADMINISTRASI SISWA</h1>
+</div>
+
+<div class="menu">
+
+    <!-- ABSENSI KELAS-->
+    <a href="https://dianwiguna00.github.io/AbsenSiswa1/">
+        <div class="card absensi">
+            <div class="icon">📋</div>
+            ABSENSI
+        </div>
+    </a>
+
+    <!-- TERLAMBAT -->
+    <a href="https://dianwiguna00.github.io/DataSiswaTerlambat1/">
+        <div class="card terlambat">
+            <div class="icon">⏰</div>
+            TERLAMBAT
+        </div>
+    </a>
+
+    <!-- INPUT NILAI -->
+    <a href="https://dianwiguna00.github.io/DaftarNilaiSiswa1/">
+        <div class="card nilai">
+            <div class="icon">📝</div>
+            INPUT NILAI
+        </div>
+    </a>
+
+    <!-- OBSERVASI -->
+    <a href="https://dianwiguna00.github.io/DataObservasiSiswa1/">
+        <div class="card observasi">
+            <div class="icon">⭐</div>
+            OBSERVASI
+        </div>
+    </a>
+<!-- MATERI PELAJARAN-->
+    <a href="https://dianwiguna00.github.io/7amhtmlx9Kq7Lm2PzR8vT1aYbN4uC6sD0hF3gJ5wE2rQ8tZ1pL9mXcV78tZ1pL9mXcV7bH6nA3sD7/">
+        <div class="card absensi">
+            <div class="icon">📋</div>
+            MATERI PELAJARAN
+        </div>
+    </a>
+
+    <!-- LATIHAN -->
+    <a href="https://dianwiguna00.github.io/7aklatx9Kq7Lm2PzR8vT1aYbN4uC6sD0hF3gJ5wE2rQ8tZ1pL9mXcV78tZ1pL9mXcV7bH6nA3sD7/">
+        <div class="card terlambat">
+            <div class="icon">⏰</div>
+            LATIHAN
+        </div>
+    </a>
+
+    <!-- KUIS INTERAKTIF -->
+    <a href="https://dianwiguna00.github.io/7akkel2x9Kq7Lm2PzR8vT1aYbN4uC6sD0hF3gJ5wE2rQ8tZ1pL9mXcV78tZ1pL9mXcV7bH6nA3sD7/">
+        <div class="card nilai">
+            <div class="icon">📝</div>
+            KUIS INTERAKTIF
+        </div>
+    </a>
+
+    <!-- PERANGKAT KBM -->
+    <a href="https://id.shp.ee/2Taa1FjG">
+        <div class="card observasi">
+            <div class="icon">⭐</div>
+            SHOPEE
+        </div>
+    </a>
+</div>
+
+
+</body>
+</html>
