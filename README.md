@@ -1,0 +1,1 @@
+# Sampul2PerangkatYbN4uC6sD0hF3gJ5wE2rQ8tZ1pL9mXccV7bH6nA3sD2
